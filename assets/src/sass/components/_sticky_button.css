@@ -1,0 +1,27 @@
+/**
+ * Sticky Button
+ * =================================
+ * - Chatbot Type Button
+ *
+ *
+ *
+ *
+ *
+ */
+
+.float{
+    background-color: #234058;
+    border-radius: 50px;
+    bottom: 40px;
+    box-shadow: 2px 2px 3px #999999;
+    color: #FFFFFF;
+    height: 60px;
+    position: fixed;
+    right: 40px;
+    text-align: center;
+    width: 60px;
+}
+
+.my-float {
+    margin-top: 22px;
+}
