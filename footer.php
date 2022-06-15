@@ -17,12 +17,12 @@
 <!--Start Footer-->
 <footer class="footer">
     <div class="text-center mx-auto text-white">
-        <div class="max-w-2xl text-center mx-auto">
+        <div class="w-24 md:w-32 lg:w-72 text-center mx-auto">
         <img class = "mx-auto text-center" src="<?php the_field('foothills_logo', 'options'); ?>"
                  alt="Company Logo">
     </div>
         <div>&copy; <?php echo date("Y");?> Foothills Church</div>
-        <a class = "inline" href="https://foothillschurch.com/">Back to Foothills Church</a> | <?php wp_nav_menu( array( 'theme_location' => 'footer-column-1' ) ); ?>
+        <a class = "inline" href="https://foothillschurch.com/">Back to Foothills Church</a> | <div class="footer-inline"> <?php wp_nav_menu( array( 'theme_location' => 'footer-column-1' ) ); ?></div>
     </div>
 </footer>
 <!--End Footer-->

@@ -12,15 +12,22 @@
 .float {
     background-color: #7498be;
     border-radius: 50px;
-    bottom: 40px;
+    bottom: 20px;
     box-shadow: 2px 2px 3px #999999;
     color: #FFFFFF;
     height: 60px;
     position: fixed;
-    right: 40px;
+    right: 20px;
     text-align: center;
     width: 60px;
     z-index: 2;
+}
+
+@media screen and (min-width: 40em) {
+    .float {
+        bottom: 40px;
+        right: 40px;
+    }
 }
 
 .floating-button {

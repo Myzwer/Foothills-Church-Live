@@ -33,6 +33,21 @@ body > footer {
   text-align: left;
   width: 100%;
 }
+.footer-inline {
+  display: inline;
+}
+
+.footer-inline > div{
+  display: inline;
+}
+
+.menu {
+  display: inline;
+}
+
+.menu li {
+  display: inline;
+}
 
 
 
@@ -47,8 +62,6 @@ body > footer {
   .footer {
     padding: 50px 50px 60px;
   }
-
-
 }
 
 /*
@@ -67,5 +80,4 @@ body > footer {
       width: 30%;
     }
   }
-
 }
