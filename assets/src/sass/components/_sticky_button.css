@@ -9,8 +9,8 @@
  *
  */
 
-.float{
-    background-color: #234058;
+.float {
+    background-color: #7498be;
     border-radius: 50px;
     bottom: 40px;
     box-shadow: 2px 2px 3px #999999;
@@ -20,8 +20,9 @@
     right: 40px;
     text-align: center;
     width: 60px;
+    z-index: 2;
 }
 
-.my-float {
+.floating-button {
     margin-top: 22px;
 }

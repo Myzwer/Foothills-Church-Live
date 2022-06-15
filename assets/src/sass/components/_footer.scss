@@ -9,8 +9,8 @@
 */
 
 /* Color Settings */
-$background-color: #222222;
-$color: #ffffff;
+$background-color: #234058;
+$color: #eeeeee;
 
 /*
  * General Settings
@@ -18,6 +18,14 @@ $color: #ffffff;
  * Remember, mobile first.
  *
  */
+
+html, body { height: 100%;}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+
 .footer {
   background-color: $background-color;
   box-sizing: border-box;

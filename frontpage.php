@@ -14,7 +14,7 @@
 get_header(); ?>
 
 
-    <div class="bg-white" style = "height: 80vh;">
+    <div class="bg-white">
         <div class="lg:max-w-6xl lg:text-center lg:mx-auto pt-10">
             <div class="grid grid-cols-12 m-5">
                 <div class="col-span-12">
@@ -30,7 +30,7 @@ get_header(); ?>
     </div>
 
     <a href="#" class="float">
-        <i class="fa fa-plus my-float"></i>
+        <i class="fa fa-plus floating-button"></i>
     </a>
 
 
