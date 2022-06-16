@@ -12,6 +12,7 @@ const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const StylelintPlugin = require("stylelint-webpack-plugin");
 const CssnanoPlugin = require("cssnano-webpack-plugin");
+const { VueLoaderPlugin } = require('vue-loader');
 
 // ***** SET ENVIRONMENT *****
 // * This tells webpack to always run in development mode.
@@ -69,6 +70,10 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
+      }
     ],
   },
 
@@ -118,6 +123,9 @@ module.exports = {
 
   // ***** SET PLUGINS *****
   plugins: [
+    new VueLoaderPlugin(),
+    // new Webpack.DefinePlugin({ __VUE_OPTIONS_API__: true, __VUE_PROD_DEVTOOLS__: true }),
+
     // *** BROWSERSYNC ***
     new BrowserSyncPlugin({
       enable: true, // enable or disable browserSync
@@ -147,4 +155,9 @@ module.exports = {
       filename: "../css/frontend.css",
     }),
   ],
+  resolve: {
+    alias: {
+      vue: "vue/dist/vue.esm-bundler.js"
+    }
+  }
 };

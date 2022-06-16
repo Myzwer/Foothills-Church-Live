@@ -1,4 +1,11 @@
-import "../sass/frontend.scss";
+import "../sass/frontend.scss"
+import * as Vue from 'vue'
+import "regenerator-runtime/runtime"
+
+import { createApp } from 'vue'
+import App from '../App.vue'
+
+createApp(App).mount('#app')
 
 (function ($) {
   // Begin jQuery
@@ -25,3 +32,6 @@ import "../sass/frontend.scss";
     });
   }); // end DOM ready
 })(jQuery); // end jQuery
+
+
+// I wrapped up Thursday with Vue working, but still can't get the component to import.

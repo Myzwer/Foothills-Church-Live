@@ -25,6 +25,9 @@ get_header(); ?>
                 <div class="col-span-12">
                     <h1 class = "uppercase text-4xl pt-10">welcome to the foothills church online experience!</h1>
                 </div>
+                <div class="col-span-12 text-center pt-24">
+                    <div id="app"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -32,7 +35,6 @@ get_header(); ?>
     <a href="#" class="float">
         <i class="fa fa-plus floating-button"></i>
     </a>
-
 
 <?php
 get_footer();
