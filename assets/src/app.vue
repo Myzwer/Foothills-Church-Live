@@ -6,15 +6,16 @@
   />
   <h1>{{firstName}} {{lastName}}</h1>
   <h3>Email: {{email}}</h3>
-  <button class = "bg-blue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" v-on:click="getUser()">Get Random User</button>
-</template>
+  <button v-on:click="getUser()">Get Random User</button>
+ </template>
 
 <script>
-export default {
-  name: "app"
-}
+// Make SURE you import vue into the project
+import * as Vue from 'vue'
 
-const app = Vue.createApp({
+// Export the name of the file. This is what gets mounted.
+export default {
+  name: "app",
   data() {
     return {
       firstName: "John",
@@ -36,8 +37,8 @@ const app = Vue.createApp({
       this.picture = results[0].picture.large;
     },
   },
-});
-app.mount("#stickybutton");
+}
+
 </script>
 
 <style scoped>
