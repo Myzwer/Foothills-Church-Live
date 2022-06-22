@@ -1,10 +1,10 @@
 <template>
-  <div class="w-4/12">
-    <div class="bg-blue-light">
+  <div class="w-3/12">
+    <div class="rounded-lg">
       <div class="bg-blue">
-        <h1 class="uppercase">Take your next step</h1>
+        <h1 class="uppercase text-white text-2xl text-center p-5">Take your next step</h1>
       </div>
-      <div class="bg-blue">
+      <div class="bg-blue-light">
         <h3 class="uppercase">First time?</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate doloremque fugiat harum hic
           inventore iste, laboriosam minima modi odio quidem rem rerum sit ut veniam, vitae voluptatem voluptatibus

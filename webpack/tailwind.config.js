@@ -36,7 +36,7 @@ module.exports = {
        * */
       blue: {
         light: "#7498be", // text-blue-light
-        DEFAULT: "#243058", // text-blue
+        DEFAULT: "#234058", // text-blue
       },
       gray: {
         DEFAULT: "#606b75",
