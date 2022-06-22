@@ -6,7 +6,7 @@ module.exports = {
    *
    * More information: https://tailwindcss.com/blog/tailwindcss-v3
    */
-  content: ["*.php", "./assets/src/js/*.js"],
+  content: ["*.php", "./assets/src/*.vue", "./assets/src/js/*.js"],
   theme: {
     colors: {
       screens: {
