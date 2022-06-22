@@ -35,6 +35,7 @@ module.exports = {
        * https://tailwindcss.com/docs/customizing-colors#custom-colors
        * */
       blue: {
+        xlight: "#CCDBE5",
         light: "#7498be", // text-blue-light
         DEFAULT: "#234058", // text-blue
       },
