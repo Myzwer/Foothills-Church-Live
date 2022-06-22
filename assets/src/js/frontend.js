@@ -5,7 +5,7 @@ import "../js/header.js"
 import * as Vue from 'vue'
 
 // Import the component
-import App from '../app.vue'
+import stickyButton from '../stickyButton.vue'
 
 // This is only needed for the random user generator
 import "regenerator-runtime/runtime"
@@ -14,7 +14,7 @@ import "regenerator-runtime/runtime"
 import { createApp } from 'vue'
 
 // Define the app
-const app = createApp(App)
+const app = createApp(stickyButton)
 
 // Mount the App
-app.mount('#app')
+app.mount('#stickyButton')

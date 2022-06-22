@@ -26,16 +26,14 @@ get_header(); ?>
                     <h1 class = "uppercase text-4xl pt-10">welcome to the foothills church online experience!</h1>
                 </div>
                 <div class="col-span-12 text-center pt-24">
-                    <div id="app">
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 
-    <a href="#" class="float">
-        <i class="fa fa-plus floating-button"></i>
-    </a>
+    <div id="stickyButton"></div>
+
 
 <?php
 get_footer();
