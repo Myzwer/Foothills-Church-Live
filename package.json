@@ -38,6 +38,8 @@
   },
   "prettier": "./webpack/.prettierrc.json",
   "dependencies": {
+    "@egjs/flicking-plugins": "^4.4.0",
+    "@egjs/vue3-flicking": "^4.9.0",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/line-clamp": "^0.3.1",

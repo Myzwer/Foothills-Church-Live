@@ -1278,6 +1278,78 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@egjs/agent@npm:^2.2.1":
+  version: 2.4.2
+  resolution: "@egjs/agent@npm:2.4.2"
+  checksum: 6ceff64ebbc07e16fc226aa369286fff8fabd72e65aa95f1690a93cb66234d6fb5ff08ab8297cd2b753bd6e082cbf6766698c95f733596dee299b922556d8b7e
+  languageName: node
+  linkType: hard
+
+"@egjs/axes@npm:^3.2.2":
+  version: 3.4.0
+  resolution: "@egjs/axes@npm:3.4.0"
+  dependencies:
+    "@egjs/agent": ^2.2.1
+    "@egjs/component": ^3.0.1
+  checksum: e0c31d298b2137792dc255933211617c7036bc69d200b0abf74b9e3af44890e552b8601cbed8c664cc78558f6b02baa205d7c735ba84b829b192e8bde14f3e6c
+  languageName: node
+  linkType: hard
+
+"@egjs/component@npm:^3.0.1":
+  version: 3.0.2
+  resolution: "@egjs/component@npm:3.0.2"
+  checksum: 4fd8854192e52f47b5cec5bad4952448b0df3b36f65bc1adae0f933164877d33fc705e9533af27a02b6faa0a4fddcaf101cce7c8f156de6202ad174b1df61e81
+  languageName: node
+  linkType: hard
+
+"@egjs/flicking-plugins@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "@egjs/flicking-plugins@npm:4.4.0"
+  peerDependencies:
+    "@egjs/flicking": ^4.1.0
+  checksum: db4638d430e2e278de1f1813dc2a44de0c9f4a0fc5d3b24d39df87a89a017c18914d16921b26ca7d85036d12d52bfab72d69666d2d3c9b0ff51ed9cffd163732
+  languageName: node
+  linkType: hard
+
+"@egjs/flicking@npm:~4.9.0":
+  version: 4.9.0
+  resolution: "@egjs/flicking@npm:4.9.0"
+  dependencies:
+    "@egjs/axes": ^3.2.2
+    "@egjs/component": ^3.0.1
+    "@egjs/imready": ^1.1.3
+    "@egjs/list-differ": ^1.0.0
+  checksum: 9f6b2d6f39ca1c896a173c3c5308c5a9d4459460d9e681295cbad0b174fd4496cedf0b74159f376f472e92f49a7e60101a3a1dda30bf47d2050dc40abd556d43
+  languageName: node
+  linkType: hard
+
+"@egjs/imready@npm:^1.1.3":
+  version: 1.3.0
+  resolution: "@egjs/imready@npm:1.3.0"
+  dependencies:
+    "@egjs/component": ^3.0.1
+  checksum: 207736c7586619f736413ac4da0ea3fdb4b8a83cf315d6911f4258b61769738e8ece37c7f661bc6a0f4464618b581af9b94001833ba743d06d9d120e8c3cdaf0
+  languageName: node
+  linkType: hard
+
+"@egjs/list-differ@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@egjs/list-differ@npm:1.0.0"
+  checksum: d1827d134ddab12a024358367cb8a3b70d2ba0f286e5beb6ce2a6bbd021594f26b02c38b2d8b3d1dfd76bd7d1fcda54de3b40decaa9b4fc939230f6e7d531d0c
+  languageName: node
+  linkType: hard
+
+"@egjs/vue3-flicking@npm:^4.9.0":
+  version: 4.9.0
+  resolution: "@egjs/vue3-flicking@npm:4.9.0"
+  dependencies:
+    "@egjs/flicking": ~4.9.0
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: f6c8b0845babcfaf59ccd718588fda8c8e31d06f524749a12b4208f3feeb4dbcb0e663a613ec4672c9dea60a60f3fa610dcc07a33335c8d92d7ce33208041d92
+  languageName: node
+  linkType: hard
+
 "@eslint/eslintrc@npm:^0.4.2":
   version: 0.4.2
   resolution: "@eslint/eslintrc@npm:0.4.2"
@@ -9377,6 +9449,8 @@ __metadata:
     "@babel/core": ^7.14.6
     "@babel/eslint-parser": ^7.14.7
     "@babel/preset-env": ^7.14.7
+    "@egjs/flicking-plugins": ^4.4.0
+    "@egjs/vue3-flicking": ^4.9.0
     "@tailwindcss/aspect-ratio": ^0.4.0
     "@tailwindcss/forms": ^0.4.0
     "@tailwindcss/line-clamp": ^0.3.1
